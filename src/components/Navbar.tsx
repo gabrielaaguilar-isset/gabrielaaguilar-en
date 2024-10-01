@@ -102,7 +102,7 @@ export const Navbar = () => {
             
             <li>
               <Link
-                href="/gabrielaaguilar-english.pdf"
+                href="/gabrielaaguilar-2024.pdf"
                 className={`block  ${!isSticky ? "sm:text-white" : "text-white" }  bg-purple hover:bg-black text-white py-2 px-6 rounded-[35px] md:border-0 transition-all duration-300 `} target="_blank"
               >
                 Download CV
