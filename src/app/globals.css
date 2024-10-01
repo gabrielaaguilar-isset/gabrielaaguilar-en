@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #F0EB00;
+  border-radius: 10px 15px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #ececec;
+}
+body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+::selection {
+  color: #fff;
+  background-color: #6B2ADC;
+}
+.MainBanner{
+  background: center / cover no-repeat url("../assets/images/MainBanner.svg") ;
+}
+
+.BackgroundPortfolio{
+  background: center / cover no-repeat url("../assets/images/portfolio-background.svg") ;
+
+}
+.BackgroundNoise{
+  background: center / cover no-repeat url("../assets/images/backgroundNoise.svg") ;
+
+}
+.backgroundAboutMe{
+  background: center / cover no-repeat url("../assets/images/backgroundAboutMe.svg") ;
+
+}
+.backgroundNoiseLargo{
+  background: center / cover no-repeat url("../assets/images/Background-Noise.svg") ;
+
+}
+#sliderHome span.swiper-pagination-bullet {
+  background: #fff!important;
+}
+
+#sliderHome span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #F2EB21 !important;
+ 
+}
+#sliderAboutMe span.swiper-pagination-bullet {
+  background: #000!important;
+}
+
+#sliderAboutMe span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #F2EB21 !important;
+ 
+}
+
+
+
+@media (width >= 2500px){
+  .marginMS{
+    padding-top: 12em!important;
+  }
+  .paddinArriba{
+    margin-top: 7em;
+  }
+}
