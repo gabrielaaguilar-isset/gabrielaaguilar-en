@@ -7,7 +7,14 @@ import ButtonAboutMe from "./ButtonAboutMe";
  
 const works = [
   {
-    date: "January 2021 - Present",
+    date: "October 2024 - Present",
+    worktitle: "WordPress Developer",
+    backgroundPelotita: "bg-yellow",
+    description:
+      "Web developer specialized in creating websites with different CMS such as WordPress and Shopify, as well as developing websites from scratch as a junior frontend programmer.",
+  },
+  {
+    date: "January 2021 - October 2024 ",
     worktitle: "Freelance Web Development",
     backgroundPelotita: "bg-purple",
     description:
@@ -23,7 +30,7 @@ const works = [
   {
     date: "August 2023 - March 2024",
     worktitle: "Webmaster | Community Manager - The Pole Garage",
-    backgroundPelotita: "bg-yellow",
+    backgroundPelotita: "bg-purple",
     description:
       "Website creation, image and content creation for social media, responsible for customer service.",
   },
@@ -45,9 +52,9 @@ const WorkExperiencie = () => {
           <ButtonAboutMe />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 2xl:gap-12 mt-24  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 2xl:gap-4 mt-24  ">
         {works.map(({ date, worktitle, description,backgroundPelotita }) => (
-          <div className="bg-black rounded-[35px] p-[32px] h-full flex flex-col">
+          <div className="bg-black rounded-[35px] p-[32px] h-full flex flex-col ml-[260px] md:ml-0">
             <div className="flex justify-between items-center">
               <div className={` ${backgroundPelotita} w-[14px] h-[14px] rounded-full mr-4`}></div>
               <p className="font-medium text-[13px] text-[#929292]">{date}</p>
@@ -55,7 +62,7 @@ const WorkExperiencie = () => {
             <h2 className="font-semibold text-[19px] md:text-[24px] leading-[150%] text-white mt-[24px]">
               {worktitle}
             </h2>
-            <h3 className="font-light text-white/60 text-[16px] mt-[36px] lg:text-[18px] ">
+            <h3 className="font-light text-white/60 text-[16px] mt-[16px] lg:text-[18px] ">
               {description}
             </h3>
           </div>

@@ -30,7 +30,7 @@ export const BannerAboutMe = () => {
 
       <div className="flex max-w-[924px] m-auto px-[20px] 2xl:max-w-[1024px] paddinArriba">
         <h4 className="text-black/80 font-semibold text-[18px] lg:text-[20px] leading-[160%] lg:ml-24 mb-7">
-        I am a web developer with over 3 years of experience in creating dynamic and functional websites. I hold a degree as a Higher Technical University in Computer Science, which has provided me with a solid foundation to specialize in technologies such as WordPress, React, Next.js, CSS, Tailwind, TypeScript, Photoshop, and Figma. With an intermediate level of English and a focus on continuous learning, I stay up to date with the latest technological trends, always striving to offer optimized solutions and exceed my clients' expectations.
+        I am a web developer with more than 3 years of experience in creating dynamic and functional websites. I have an Advanced Technical Diploma in Computer Science, which has given me a solid base to specialize in technologies such as WordPress, React, Next.js, CSS, Tailwind, TypeScript, Photoshop, and Figma. With an intermediate level of English and a focus on continuous learning, I keep up with the latest technology trends, always looking to provide optimized solutions and exceed my clients' expectations.
         </h4>
       </div>
     </>
