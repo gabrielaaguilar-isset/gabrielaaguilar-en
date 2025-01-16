@@ -54,7 +54,7 @@ const WorkExperiencie = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 2xl:gap-4 mt-24  ">
         {works.map(({ date, worktitle, description,backgroundPelotita }) => (
-          <div className="bg-black rounded-[35px] p-[32px] h-full flex flex-col ml-[260px] md:ml-0">
+          <div className="bg-black rounded-[35px] p-[32px] ml-0 h-full flex flex-col  md:ml-0">
             <div className="flex justify-between items-center">
               <div className={` ${backgroundPelotita} w-[14px] h-[14px] rounded-full mr-4`}></div>
               <p className="font-medium text-[13px] text-[#929292]">{date}</p>

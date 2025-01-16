@@ -7,7 +7,9 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 import Titles from "./Titles";
+import blog from "../assets/images/blogdelrebobinador.svg";
 import dilo from "../assets/images/dilo-club.svg";
+import mego from "../assets/images/mego.svg";
 import practica from "../assets/images/prueba.svg";
 import travnow from "../assets/images/travnow.svg";
 import adricapon from "../assets/images/adri-capon.svg";
@@ -32,6 +34,22 @@ interface Work {
 
 
 const works = [
+  {
+    title: "Blog del Rebobinador",
+    url: "https://blogdelrebobinador.com/",
+    img: blog,
+    type: "WordPress, Elementor",
+    description:
+      "Website developed from scratch using WordPress and Elementor, without templates. All design and functionality were customized to meet the specific needs of the project.",
+  },
+  {
+    title: "Mego Afek",
+    url: "https://mego-afek.webcroslet.com/",
+    img: mego,
+    type: "WordPress, Elementor",
+    description:
+      "Website developed from scratch using WordPress and Elementor, without templates. The design was provided by a third party.",
+  },
   {
     title: "Dilo Club",
     url: "https://dilo.club/",
